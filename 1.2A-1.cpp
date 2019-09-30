@@ -22,6 +22,8 @@ int main()
 		cout << "\nGrade B" << endl;
 	else if ((score >= 90) && (score <= 100))
 		cout << "\nGrade A" << endl;
+	else
+		cout << "\nInvalid score" << endl;
 
 	return 0;
 }
